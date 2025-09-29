@@ -88,91 +88,91 @@
         </div>
     </section>
 
-        <!-- Umur -->
-        <div class="col-md-6">
-            <div class="card mb-4">
-                <div class="card-body text-center">
-                    <h2>{{ $my_age }}</h2>
-                    <p>Umur</p>
-                </div>
-            </div>
-        </div>
-
-        <!-- Hobi -->
-        <div class="col-md-6">
-            <div class="card mb-4">
-                <div class="card-body">
-                    <h5 class="card-title">Hobi</h5>
-                    <ul class="list-group">
-                        @foreach ($hobbies as $hobi)
-                            <li class="list-group-item">{{ $hobi }}</li>
-                        @endforeach
-                    </ul>
-                </div>
-            </div>
-        </div>
-
-        <!-- Target Wisuda -->
-        <div class="col-md-6">
-            <div class="card mb-4">
-                <div class="card-body">
-                    <h5 class="card-title">Target Wisuda</h5>
-                    <p>{{ $tgl_harus_wisuda }}</p>
-                </div>
-            </div>
-        </div>
-
-        <!-- Sisa Hari -->
-        <div class="col-md-6">
-            <div class="card mb-4">
-                <div class="card-body">
-                    <h5 class="card-title">Waktu Tersisa</h5>
-                    <p>{{ $time_to_study_left }} hari lagi</p>
-                </div>
-            </div>
-        </div>
-
-        <!-- Semester -->
-        <div class="col-md-6">
-            <div class="card mb-4">
-                <div class="card-body">
-                    <h5 class="card-title">Semester Saat Ini</h5>
-                    <p>{{ $current_semester }}</p>
-                </div>
-            </div>
-        </div>
-
-        <!-- Motivasi -->
-        <div class="col-md-6">
-            <div class="card mb-4">
-                <div class="card-body">
-                    <h5 class="card-title">Motivasi</h5>
-                    <p>{{ $motivasi }}</p>
-                </div>
-            </div>
-        </div>
-
-        <!-- Future Goal -->
-        <div class="col-md-12">
-            <div class="card mb-4">
-                <div class="card-body">
-                    <h5 class="card-title">Cita-cita / Tujuan</h5>
-                    <p>{{ $future_goal }}</p>
-                </div>
+    <!-- Umur -->
+    <div class="col-md-6">
+        <div class="card mb-4">
+            <div class="card-body text-center">
+                <h2>{{ $my_age }}</h2>
+                <p>Umur</p>
             </div>
         </div>
     </div>
-</section>
 
-                <!-- Footer -->
-                <footer class="footer">
-                    <div class="container">
-                        <p>&copy; {{ date('Y') }} My Laravel App. All Rights Reserved.</p>
-                    </div>
-                </footer>
+    <!-- Hobi -->
+    <div class="col-md-6">
+        <div class="card mb-4">
+            <div class="card-body">
+                <h5 class="card-title">Hobi</h5>
+                <ul class="list-group">
+                    @foreach ($hobbies as $hobi)
+                        <li class="list-group-item">{{ $hobi }}</li>
+                    @endforeach
+                </ul>
+            </div>
+        </div>
+    </div>
 
-                <!-- Bootstrap JS -->
-                <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"></script>
+    <!-- Target Wisuda -->
+    <div class="col-md-6">
+        <div class="card mb-4">
+            <div class="card-body">
+                <h5 class="card-title">Target Wisuda</h5>
+                <p>{{ $tgl_harus_wisuda }}</p>
+            </div>
+        </div>
+    </div>
+
+    <!-- Sisa Hari -->
+    <div class="col-md-6">
+        <div class="card mb-4">
+            <div class="card-body">
+                <h5 class="card-title">Waktu Tersisa</h5>
+                <p>{{ $time_to_study_left }} hari lagi</p>
+            </div>
+        </div>
+    </div>
+
+    <!-- Semester -->
+    <div class="col-md-6">
+        <div class="card mb-4">
+            <div class="card-body">
+                <h5 class="card-title">Semester Saat Ini</h5>
+                <p>{{ $current_semester }}</p>
+            </div>
+        </div>
+    </div>
+
+    <!-- Motivasi -->
+    <div class="col-md-6">
+        <div class="card mb-4">
+            <div class="card-body">
+                <h5 class="card-title">Motivasi</h5>
+                <p>{{ $motivasi }}</p>
+            </div>
+        </div>
+    </div>
+
+    <!-- Future Goal -->
+    <div class="col-md-12">
+        <div class="card mb-4">
+            <div class="card-body">
+                <h5 class="card-title">Cita-cita / Tujuan</h5>
+                <p>{{ $future_goal }}</p>
+            </div>
+        </div>
+    </div>
+    </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <p>&copy; {{ date('Y') }} My Laravel App. All Rights Reserved.</p>
+        </div>
+    </footer>
+
+    <!-- Bootstrap JS -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"></script>
 </body>
 
 </html>
