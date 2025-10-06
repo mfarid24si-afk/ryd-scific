@@ -27,24 +27,24 @@
 	<meta name="author" content="Themesberg">
 
 	<!-- Favicon -->
-	<link rel="apple-touch-icon" sizes="120x120" href="../../assets/img/favicon/apple-touch-icon.png">
-	<link rel="icon" type="image/png" sizes="32x32" href="../../assets/img/favicon/favicon-32x32.png">
-	<link rel="icon" type="image/png" sizes="16x16" href="../../assets/img/favicon/favicon-16x16.png">
-	<link rel="manifest" href="../../assets/img/favicon/site.webmanifest">
-	<link rel="mask-icon" href="../../assets/img/favicon/safari-pinned-tab.svg" color="#ffffff">
+	<link rel="apple-touch-icon" sizes="120x120" href="assets-admin/img/favicon/apple-touch-icon.png">
+	<link rel="icon" type="image/png" sizes="32x32" href="assets-admin/img/favicon/favicon-32x32.png">
+	<link rel="icon" type="image/png" sizes="16x16" href="assets-admin/img/favicon/favicon-16x16.png">
+	<link rel="manifest" href="assets-admin/img/favicon/site.webmanifest">
+	<link rel="mask-icon" href="assets-admin/img/favicon/safari-pinned-tab.svg" color="#ffffff">
 	<meta name="msapplication-TileColor" content="#ffffff">
 	<meta name="theme-color" content="#ffffff">
 
 	<!-- Volt CSS -->
-	<link type="text/css" href="../../css/volt.css" rel="stylesheet">
+	<link type="text/css" href="assets-admin/css/volt.css" rel="stylesheet">
 
 </head>
 
 <body>
 	<nav class="navbar navbar-dark navbar-theme-primary px-4 col-12 d-lg-none">
 		<a class="navbar-brand me-lg-5" href="../../index.html">
-			<img class="navbar-brand-dark" src="../../assets/img/brand/light.svg" alt="Volt logo" />
-			<img class="navbar-brand-light" src="../../assets/img/brand/dark.svg" alt="Volt logo" />
+			<img class="navbar-brand-dark" src="assets-admin/img/brand/light.svg" alt="Volt logo" />
+			<img class="navbar-brand-light" src="assets-admin/img/brand/dark.svg" alt="Volt logo" />
 		</a>
 		<div class="d-flex align-items-center">
 			<button class="navbar-toggler d-lg-none collapsed" type="button" data-bs-toggle="collapse"
@@ -61,7 +61,7 @@
 				class="user-card d-flex d-md-none align-items-center justify-content-between justify-content-md-center pb-4">
 				<div class="d-flex align-items-center">
 					<div class="avatar-lg me-4">
-						<img src="../../assets/img/team/profile-picture-3.jpg"
+						<img src="assets-admin/img/team/profile-picture-3.jpg"
 							class="card-img-top rounded-circle border-white" alt="Bonnie Green">
 					</div>
 					<div class="d-block">
@@ -94,7 +94,7 @@
 				<li class="nav-item">
 					<a href="../../index.html" class="nav-link d-flex align-items-center">
 						<span class="sidebar-icon">
-							<img src="../../assets/img/brand/light.svg" height="20" width="20" alt="Volt Logo">
+							<img src="assets-admin/img/brand/light.svg" height="20" width="20" alt="Volt Logo">
 						</span>
 						<span class="mt-1 ms-1 sidebar-text">Volt Overview</span>
 					</a>
@@ -112,7 +112,7 @@
 					</a>
 				</li>
 				<li class="nav-item">
-					<a href="https://demo.themesberg.com/volt-pro/pages/kanban.html" target="_blank"
+					<!-- <a href="https://demo.themesberg.com/volt-pro/pages/kanban.html" target="_blank"
 						class="nav-link d-flex justify-content-between">
 						<span>
 							<span class="sidebar-icon">
@@ -128,8 +128,8 @@
 						<span>
 							<span class="badge badge-sm bg-secondary ms-1 text-gray-800">Pro</span>
 						</span>
-					</a>
-				</li>
+					</a> -->
+				<!-- </li>
 				<li class="nav-item ">
 					<a href="../../pages/transactions.html" class="nav-link">
 						<span class="sidebar-icon">
@@ -194,7 +194,7 @@
 							<span class="badge badge-sm bg-secondary ms-1 text-gray-800">Pro</span>
 						</span>
 					</a>
-				</li>
+				</li> -->
 				<li class="nav-item">
 					<span class="nav-link  collapsed  d-flex justify-content-between align-items-center"
 						data-bs-toggle="collapse" data-bs-target="#submenu-app">
@@ -228,7 +228,7 @@
 						</ul>
 					</div>
 				</li>
-				<li class="nav-item">
+				<!-- <li class="nav-item">
 					<span class="nav-link  collapsed  d-flex justify-content-between align-items-center"
 						data-bs-toggle="collapse" data-bs-target="#submenu-pages">
 						<span>
@@ -291,8 +291,8 @@
 							</li>
 						</ul>
 					</div>
-				</li>
-				<li class="nav-item">
+				</li> -->
+				<!-- <li class="nav-item">
 					<span class="nav-link  collapsed  d-flex justify-content-between align-items-center"
 						data-bs-toggle="collapse" data-bs-target="#submenu-components">
 						<span>
@@ -371,11 +371,11 @@
 				<li class="nav-item">
 					<a href="https://themesberg.com" target="_blank" class="nav-link d-flex align-items-center">
 						<span class="sidebar-icon">
-							<img src="../../assets/img/themesberg.svg" height="20" width="28" alt="Themesberg Logo">
+							<img src="assets-admin/img/themesberg.svg" height="20" width="28" alt="Themesberg Logo">
 						</span>
 						<span class="sidebar-text">Themesberg</span>
 					</a>
-				</li>
+				</li> -->
 				<li class="nav-item">
 					<a href="../../pages/upgrade-to-pro.html"
 						class="btn btn-secondary d-flex align-items-center justify-content-center btn-upgrade-pro">
@@ -440,7 +440,7 @@
 											<div class="col-auto">
 												<!-- Avatar -->
 												<img alt="Image placeholder"
-													src="../../assets/img/team/profile-picture-1.jpg"
+													src="assets-admin/img/team/profile-picture-1.jpg"
 													class="avatar-md rounded">
 											</div>
 											<div class="col ps-0 ms-2">
@@ -463,7 +463,7 @@
 											<div class="col-auto">
 												<!-- Avatar -->
 												<img alt="Image placeholder"
-													src="../../assets/img/team/profile-picture-2.jpg"
+													src="assets-admin/img/team/profile-picture-2.jpg"
 													class="avatar-md rounded">
 											</div>
 											<div class="col ps-0 ms-2">
@@ -498,7 +498,7 @@
 								data-bs-toggle="dropdown" aria-expanded="false">
 								<div class="media d-flex align-items-center">
 									<img class="avatar rounded-circle" alt="Image placeholder"
-										src="../../assets/img/team/profile-picture-3.jpg">
+										src="assets-admin/img/team/profile-picture-3.jpg">
 									<div class="media-body ms-2 text-dark align-items-center d-none d-lg-block">
 										<span class="mb-0 font-small fw-bold text-gray-900">Bonnie Green</span>
 									</div>
@@ -776,7 +776,7 @@
 												<!-- Avatar -->
 												<a href="#" class="avatar">
 													<img class="rounded" alt="Image placeholder"
-														src="../../assets/img/team/profile-picture-1.jpg">
+														src="assets-admin/img/team/profile-picture-1.jpg">
 												</a>
 											</div>
 											<div class="col-auto ms--2">
@@ -808,7 +808,7 @@
 												<!-- Avatar -->
 												<a href="#" class="avatar">
 													<img class="rounded" alt="Image placeholder"
-														src="../../assets/img/team/profile-picture-2.jpg">
+														src="assets-admin/img/team/profile-picture-2.jpg">
 												</a>
 											</div>
 											<div class="col-auto ms--2">
@@ -840,7 +840,7 @@
 												<!-- Avatar -->
 												<a href="#" class="avatar">
 													<img class="rounded" alt="Image placeholder"
-														src="../../assets/img/team/profile-picture-3.jpg">
+														src="assets-admin/img/team/profile-picture-3.jpg">
 												</a>
 											</div>
 											<div class="col-auto ms--2">
@@ -872,7 +872,7 @@
 												<!-- Avatar -->
 												<a href="#" class="avatar">
 													<img class="rounded" alt="Image placeholder"
-														src="../../assets/img/team/profile-picture-4.jpg">
+														src="assets-admin/img/team/profile-picture-4.jpg">
 												</a>
 											</div>
 											<div class="col-auto ms--2">
@@ -1017,9 +1017,9 @@
 			<div class="col-12 col-xl-4">
 				<div class="col-12 px-0 mb-4">
 					<div class="card shadow border-0 text-center p-0">
-						<div class="profile-cover rounded-top" data-background="../../assets/img/profile-cover.jpg" style="background: url(&quot;../../assets/img/profile-cover.jpg&quot;);"></div>
+						<div class="profile-cover rounded-top" data-background="assets-admin/img/profile-cover.jpg" style="background: url(&quot;assets-admin/img/profile-cover.jpg&quot;);"></div>
 						<div class="card-body pb-5">
-							<img src="../../assets/img/team/profile-picture-1.jpg" class="avatar-xl rounded-circle mx-auto mt-n7 mb-4" alt="Neil Portrait">
+							<img src="assets-admin/img/team/profile-picture-1.jpg" class="avatar-xl rounded-circle mx-auto mt-n7 mb-4" alt="Neil Portrait">
 							<h4 class="h3">Neil Sims</h4>
 							<h5 class="fw-normal">Senior Software Engineer</h5>
 							<p class="text-gray mb-4">New York, USA</p>
@@ -1200,11 +1200,11 @@
 	</main>
 
 	<!-- Core -->
-	<script src="../../vendor/@popperjs/core/dist/umd/popper.min.js"></script>
-	<script src="../../vendor/bootstrap/dist/js/bootstrap.min.js"></script>
+	<script src="assets-admin/vendor/@popperjs/core/dist/umd/popper.min.js"></script>
+	<script src="assets-admin/vendor/bootstrap/dist/js/bootstrap.min.js"></script>
 
 	<!-- Vendor JS -->
-	<script src="../../vendor/onscreen/dist/on-screen.umd.min.js"></script>
+	<script src="assets-admin/vendor/onscreen/dist/on-screen.umd.min.js"></script>
 </body>
 
 </html>
