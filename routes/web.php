@@ -8,6 +8,7 @@ use App\Http\Controllers\PegawaiController;
 use App\Http\Controllers\QuestionController;
 use App\Http\Controllers\DashboardController;
 use App\Http\Controllers\AUthController;
+use App\Http\Controllers\PelangganController;
 
 Route::get('/', function () {
     return 'welcome cihuyyy';
@@ -46,30 +47,32 @@ Route::post('question/store', [QuestionController::class, 'store'])
 Route::get('/dashboard', [DashboardController::class, 'index'])
 		->name('admin.dashboard');
 
-Route::get('/login', [AuthController::class, 'index'])
-		->name('pages.login');
+//Route::get('/login', [AuthController::class, 'index'])
+//		->name('pages.login');
+//
+//        // Route untuk halaman login
+//Route::get('/login', [AuthController::class, 'index'])->name('pages.login');
+//
+//// Route untuk proses login
+//Route::post('/login', [AuthController::class, 'login']);
+//
+//// Route untuk halaman register
+//Route::get('/register', [AuthController::class, 'index'])->name('pages.register');
+//
+//// Route untuk proses register (Named Route)
+//Route::post('/register', [AuthController::class, 'register']);
+//
+//// Route untuk dashboard (setelah login)
+//Route::get('/dashboard', function() {
+//    return view('dashboard');
+//})->middleware('auth')->name('dashboard');
+//
+//// Route untuk logout
+//Route::post('/logout', function() {
+//    Auth::logout();
+//    request()->session()->invalidate();
+//    request()->session()->regenerateToken();
+//    return redirect('/login');
+//})->name('logout');
 
-        // Route untuk halaman login
-Route::get('/login', [AuthController::class, 'index'])->name('auth.login');
-
-// Route untuk proses login
-Route::post('/login', [AuthController::class, 'login']);
-
-// Route untuk halaman register
-Route::get('/register', [AuthController::class, 'index'])->name('auth.register');
-
-// Route untuk proses register (Named Route)
-Route::post('/register', [AuthController::class, 'register']);
-
-// Route untuk dashboard (setelah login)
-Route::get('/dashboard', function() {
-    return view('dashboard');
-})->middleware('auth')->name('dashboard');
-
-// Route untuk logout
-Route::post('/logout', function() {
-    Auth::logout();
-    request()->session()->invalidate();
-    request()->session()->regenerateToken();
-    return redirect('/login');
-})->name('logout');
+Route::resource('pelanggan', PelangganController::class);
