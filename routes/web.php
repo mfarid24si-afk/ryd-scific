@@ -9,6 +9,7 @@ use App\Http\Controllers\QuestionController;
 use App\Http\Controllers\DashboardController;
 use App\Http\Controllers\AUthController;
 use App\Http\Controllers\PelangganController;
+use App\Http\Controllers\UserController;
 
 Route::get('/', function () {
     return 'welcome cihuyyy';
@@ -76,3 +77,6 @@ Route::get('/dashboard', [DashboardController::class, 'index'])
 //})->name('logout');
 
 Route::resource('pelanggan', PelangganController::class);
+
+
+Route::resource('user', UserController::class);

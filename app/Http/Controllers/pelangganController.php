@@ -2,10 +2,11 @@
 
 namespace App\Http\Controllers;
 
+use App\Http\Controllers\Controller;
 use Illuminate\Http\Request;
 use App\Models\Pelanggan;
 
-class pelangganController extends Controller
+class pelangganController 
 {
     /**
      * Display a listing of the resource.
@@ -13,12 +14,12 @@ class pelangganController extends Controller
     public function index()
     {
         $data['dataPelanggan'] = Pelanggan::all();
-		return view('admin.pelanggan.index',$data);
-}
+        return view('admin.pelanggan.index', $data);
+    }
 
     public function create()
     {
-       return view('admin.pelanggan.create');
+        return view('admin.pelanggan.create');
     }
 
     /**
@@ -36,7 +37,7 @@ class pelangganController extends Controller
 
         Pelanggan::create($data);
 
-        return redirect()->route('pelanggan.create')->with('success','Penambahan Data Berhasil!');
+        return redirect()->route('pelanggan.create')->with('success', 'Penambahan Data Berhasil!');
     }
 
     /**
